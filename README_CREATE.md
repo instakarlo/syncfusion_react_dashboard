@@ -2,7 +2,7 @@
 
 Source: https://youtu.be/jx5hdo50a2M
 
-## Steps
+## Initial Set-up Steps
 1. Run `npx create-react-app` on code directory
 2. Delete all file under `src/` folder
 3. Create `src\index.js`
@@ -46,3 +46,19 @@ import './App.css';
 
 This should be the end of the set-up and copying of code
 
+## Start Coding
+1. Under `src`, create the following folders to set-up the code structure
+    a. `components`
+    b. `contexts`
+    c. `pages`
+    d. `data` - copy the files from thsi repository
+
+2. Add necessary libraries in `App.js`:
+```js
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { FiSettings } from 'react-icons/fi';
+import { TooltipComponent } from '@syncfusion/ej2-react-popups';
+```
+
+3. Update the App structure by following the [coding tutorial](https://youtu.be/jx5hdo50a2M?t=1386)
